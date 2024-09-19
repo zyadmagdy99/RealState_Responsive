@@ -97,7 +97,6 @@
     text-align: center;
     font-size: 12px;
     font-weight: 100;
-    padding-inline: 50px;
     margin-top: 20px;
     color: rgba(255, 255, 255, 0.819);
 }
@@ -169,12 +168,14 @@ button:active {
     padding-inline: 40px;
     margin-block: 15px;
     
+    
 }
 .fdetails{
     display: flex;
     justify-content:space-between;
     font-weight: 900;
     font-size: 18px;
+    margin-block: 20px;
     
 }
 .sec{
@@ -186,16 +187,17 @@ button:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .single-icon{
     display: flex;
     gap: 30px;
-    padding: 20px;
+    
     color: rgba(0, 0, 0, 0.611);
 }
-.title{
-    padding-left: 20px;
-    margin-block: 20px;
+.title1{
+    padding-left: 40px;
+    margin-block: 40px;
 }
 .bg-comment{
     background-image: url("./real_state/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf.jpg");
@@ -427,8 +429,7 @@ img{
     }
     .intro{
         font-size: 16px;
-        width: 24rem;
-
+        width: 34rem;
     }
     .main{
         display: flex;
@@ -469,11 +470,8 @@ img{
         
     }
    
-    .icons{
-        font-size: 12px;
-    }
+  
     .inner-houses{
-        width: 15rem;
         height: 10rem;
     }
     .houses{
@@ -534,6 +532,7 @@ img{
     .title{
         width: 20rem;
         font-size: 25px;
+        text-align: center;
     }
     .subscribe{
         width: 25rem;
