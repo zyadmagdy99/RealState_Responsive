@@ -410,101 +410,96 @@ img{
     }
     .navbar{
         justify-content: space-around;
-        .title{
-            font-size: 30px;
-        }
-        .buttons{
-            font-size: 30px;
-            button{background-color: #007bff8d;}
-        }
+        
+       
     }
-    
+    .buttons{
+        font-size: 30px;
+        button{background-color: #007bff8d;}
+    }
+    .title{
+        font-size: 30px;
+    }
     .main_title{
         width: 24rem;
         font-size: 40px;
         
+    }
+    .intro{
+        font-size: 16px;
+        width: 24rem;
+
     }
     .main{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .intro{
-            font-size: 16px;
-        }
+       
     }
-    .intro{
-        width: 24rem;
-        
-    }
+   
     .search{
         width: 32rem;
         height: 2rem;
         padding: 5px;
         font-size: 18px;
-        i{
-            font-size: 15px;
-        }
+      
 
     }
     .header{
         height: 100vh;
-        .tail{
-            justify-content: center;
-            gap: 20px;
-            font-size: 20px;
-        }
+    }
+    .tail{
+        justify-content: center;
+        gap: 20px;
+        font-size: 20px;
+    }
+    .photo{
+        width: 60rem;
     }
     .charts{
         margin-block: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
-        .photo{
-            width: 60rem;
-        }
-        .tools{
-            padding-inline: 30px;
-            h2{
-                font-size: 30px;
-            }
-        }
+        
+    }
+    .tools{
+        padding-inline: 50px;
+        
+    }
+   
+    .icons{
+        font-size: 12px;
+    }
+    .inner-houses{
+        width: 15rem;
+        height: 10rem;
     }
     .houses{
         display: flex;
-        .details{
-            p{
-                font-size: 12px;
-            }
-            .sec{
-                width: 10rem;
-            }
-        }
-        .icons{
-            font-size: 12px;
-        }
-        img{
-            width: 15rem;
-            height: 10rem;
-        }
+        
+       
     }
-    .featured{
-        .title{
-            font-size: 36px;
-        }
+    .sec{
+        width: 10rem;
     }
+    .title{
+        font-size: 36px;
+    }
+    
     .bg-comment{
         display: flex;
         border-radius: 30px;
         justify-content: flex-start;
-        h3{
-            font-size: 30px;
-        }
-        .comment{
-            width: 50rem;
-            
-        }
-       
+        
+    }
+    h3{
+        font-size: 25px;
+    }
+    .comment{
+        width: 50rem;
+        
     }
     .details{
         gap: 50px;
@@ -513,25 +508,21 @@ img{
     .apart{
         display: flex;
         justify-content: space-around;
-        .designs{
-            padding: 20px;
-            width: 25rem;
-            height: 30rem;
-        }
+    }
+    .designs{
+        padding: 20px;
+        width: 25rem;
+        height: 30rem;
     }
     .frequently-asked{
         margin-block: 60px;
-        h2{
-            font-size: 36px;
-            padding-inline: 60px;
-            text-align: center;
-        }
+        
         display: flex;
         justify-content: space-between;
-        .questions{
-            width: 50rem;
-            
-        }
+    }
+    .questions{
+        width: 50rem;
+        
     }
     .join-us{
         height: 15rem;
@@ -539,13 +530,13 @@ img{
         margin-left: 28px;
         display: flex;
         flex-direction: row;
-        h2{
-            width: 25rem;
-            font-size: 30px;
-        }
-        .subscribe{
-            width: 25rem;
-        }
+    }
+    .title{
+        width: 20rem;
+        font-size: 25px;
+    }
+    .subscribe{
+        width: 25rem;
     }
     .footer{
         display: flex;
